@@ -268,5 +268,14 @@
                 tabsContent.height(tabsContent.find(".active").outerHeight());
             });
         });
+          /* задание 3*/
+        $('.lp-mfp-inline').magnificPopup({
+            type: 'iframe',
+            src: '/page1.html'
+        });
+        
+        
+        
+        
     });
 })(jQuery);
