@@ -275,6 +275,13 @@
         });
         
         
+               /* Задание 1*/
+        $('.lp-mfp-inline').magnificPopup({
+            type: 'iframe'
+           
+        });
+        
+       
         
         
     });
