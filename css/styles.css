@@ -40,7 +40,6 @@ header ul li.active a {
 }
 
 .lp-content {
-    min-height: 500px;
     border: 1px dashed red;
     padding: 40px 0;
 }
@@ -137,4 +136,44 @@ footer p {
     color: #7952b3;
     font-size: 16px;
     line-height: 40px;
+}
+
+/* Табулятор */
+
+.lp-tabs {
+    padding: 20px;
+}
+
+.lp-tabs .lp-tabs-titles ul {
+    padding: 0;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.lp-tabs .lp-tabs-titles ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    background: #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: color .25s, background-color .25s;
+}
+
+.lp-tabs .lp-tabs-titles ul li:hover,
+.lp-tabs .lp-tabs-titles ul li.active {
+    background: #7952b3;
+    color: #fff;
+}
+
+.lp-tabs .lp-tabs-content {
+    position: relative;
+}
+
+.lp-tabs .lp-tabs-content .lp-tab {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: none;
 }
